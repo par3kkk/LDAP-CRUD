@@ -54,7 +54,7 @@
 
     <update id="Update" parameterType="com.ply.entity.Ldap">
         update ldap
-        set ldap.adName={#adName}, ldap.ip={#ip}, ldap.searchPath={#searchPath}, ldap.bindUserPath={#bindUserPath}, ldap.bindUserPassword={#bindUserPassword}
+        set ldap.adName=#{adName}, ldap.ip=#{ip}, ldap.searchPath=#{searchPath}, ldap.bindUserPath=#{bindUserPath}, ldap.bindUserPassword=#{bindUserPassword}
         where ldap.ldapID=#{ldapID}
     </update>
 </mapper>
