@@ -21,14 +21,14 @@ LDAP(CRUD) Based on SpringBoot and Vue and Mysql
 <p>Directory LDAP-BACK is the package of back-end</p><br>
 
 # MySQL Settings
-Create Table: CREATE TABLE `ldap` (
-  `ldapID` int NOT NULL AUTO_INCREMENT,
-  `adName` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  `ip` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  `searchPath` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  `bindUserPath` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  `bindUserPassword` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  PRIMARY KEY (`ldapID`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=119 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT
+Create Table: CREATE TABLE `ldap` (<br>
+  `ldapID` int NOT NULL AUTO_INCREMENT,<br>
+  `adName` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,<br>
+  `ip` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,<br>
+  `searchPath` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,<br>
+  `bindUserPath` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,<br>
+  `bindUserPassword` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,<br>
+  PRIMARY KEY (`ldapID`) USING BTREE<br>
+) ENGINE=InnoDB AUTO_INCREMENT=119 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT<br>
 
 
